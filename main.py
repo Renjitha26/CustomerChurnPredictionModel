@@ -1,4 +1,4 @@
-# Problem Statement : Predict whether a customer will leave (churn) or stay
+# Problem Statement : Classification Problem - Predict whether a customer will leave (churn) or stay
 
 # Step 1: Import Libraries
 import numpy as np
@@ -26,6 +26,7 @@ print(df.head())
 print(df.info())
 print(df.describe())
 print(df.columns)
+print(df.isnull().sum())
 
 # Step 4: Data Cleaning
 # Convert TotalCharges to numeric
