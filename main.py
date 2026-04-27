@@ -26,7 +26,7 @@ print(df.head())
 print(df.info())
 print(df.describe())
 print(df.columns)
-print(df.isnull().sum())
+
 
 # Step 4: Data Cleaning
 # Convert TotalCharges to numeric
